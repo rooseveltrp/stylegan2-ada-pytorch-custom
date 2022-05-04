@@ -9,5 +9,11 @@
 $ cd /app
 $ git clone git@github.com:NVlabs/stylegan2-ada-pytorch.git
 $ cd /app/stylegan2-ada-pytorch/
-$ python3.7 generate.py --network ../pretrained/2020-01-11-skylion-stylegan2-animeportraits-networksnapshot-024664.pkl --outdir ../output/ --seeds 1,2,3,4,5
+$ python3.7 generate.py --network ../pretrained/anime.pkl --outdir ../output/ --seeds 1 --trunc=0.5
+```
+
+## Training
+
+```
+$ 
 ```

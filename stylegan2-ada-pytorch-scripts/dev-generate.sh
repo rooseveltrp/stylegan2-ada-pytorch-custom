@@ -1,0 +1,1 @@
+./docker_run.sh python3 generate.py --outdir=output --trunc=1 --seeds=85 --network=pretrained/anime.pkl

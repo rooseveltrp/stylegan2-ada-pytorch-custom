@@ -1,0 +1,1 @@
+./docker_run.sh python3 train.py --outdir=output-training --data=data/batman-updated --batch=8

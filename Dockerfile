@@ -25,4 +25,4 @@ RUN pip3.7 install tqdm==4.49.0
 RUN pip3.7 install boto3==1.16.25
 # RUN pip3.7 install tensorflow-gpu==1.15.3
 RUN pip3.7 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
-RUN pip3.7 install imageio-ffmpeg==0.4.3 pyspng==0.1.0 Click
+RUN pip3.7 install imageio-ffmpeg==0.4.3 pyspng==0.1.0 Click psutil
